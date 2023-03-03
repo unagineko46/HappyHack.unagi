@@ -158,7 +158,6 @@ nav a:hover{
   width: 100vw;
 }
 
-
 .course-up{
   margin: 0 500px;
   display: flex;
@@ -177,16 +176,27 @@ nav a:hover{
   padding: 40px;
 }
 
-
-.slick{
-  width: 100vw;
-  height: 40px;
-  margin: 30px 100px;
+canvas{
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:-1;
 }
 
-.slick img{
-  width: 200px;
-  height: 40px;
+#limited{
+  padding: 10px 0 115px 0;
+  width: 1525px;
+  height: 255px;
+  margin: 0 auto;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
 }
 
 footer{
@@ -197,8 +207,10 @@ footer{
 
 footer p{
   width: 100vw;
-  font-size: 20px;
+  margin-top: 70px;
+  font-size: 18px;
   text-align: center;
+  color: #3D5CDB;
 }
 
 .accessmap{
